@@ -234,11 +234,13 @@
 				-->
 				<defs>
 					<g id="window">
+						<!-- Window mullions first so they appear above the rect -->
+						<!-- Vertical mullion: shows x=17.5 -->
+						<line x1="17.5" y1="0" x2="17.5" y2="30" stroke="#4a90e2" stroke-width="3" />
+						<!-- Horizontal mullion: shows y=15 -->
+						<line x1="0" y1="15" x2="35" y2="15" stroke="#4a90e2" stroke-width="3" />
+						<!-- Window rectangle -->
 						<rect x="0" y="0" width="35" height="30" fill="#e0f7fa" stroke="#4a90e2" stroke-width="2" />
-						<!-- Vertical mullion -->
-						<line x1="17.5" y1="0" x2="17.5" y2="30" stroke="#4a90e2" stroke-width="2" />
-						<!-- Horizontal mullion -->
-						<line x1="0" y1="15" x2="35" y2="15" stroke="#4a90e2" stroke-width="2" />
 					</g>
 				</defs>
 				<!-- Place first window at (365,240) using translate -->
